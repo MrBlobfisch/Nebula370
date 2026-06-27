@@ -29,3 +29,6 @@ make menuconfig
 ()  GPIO pins to set at micro-controller startup
 
 make -j4
+
+
+check connection:  ~/klippy-env/bin/python ~/klipper/klippy/console.py /dev/serial/by-id/usb-Klipper_stm32h723xx_1F0014000851323235363233-if00
